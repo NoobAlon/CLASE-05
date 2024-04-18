@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-image: linear-gradient(-120deg,rgba(255, 0, 0, 0.516), rgba(0, 0, 255, 0.314)), url(img/1366_2000.jpg); 
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.hero-texto{
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+
+font-size: 60px;
+text-shadow: 0 0 15px darkgreen;
+text-align: center;
+}
+.hero h2{
+    font-size: 40px;
+    font-weight: 300;
+    text-shadow: 0 0 15px olive;
+}
+.info{
+    background-color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aquamarine;
+}
+.contenedor{
+      width: 90%;
+      margin: auto;
+      padding: 80px;
+}
+.titulo{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px black;
+}
+
+.parrafo{
+    font-size: 18px;
+    text-align: justify;
+    text-shadow: 0 0 3px black;
+}
+.contenedor-card {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly; 
+}
+.card{
+    box-shadow: 0 0 15px black;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center; 
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+.boton{
+    background-color: brown;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin:  20px 0;
+    width: 50px;
+    border: 1px solid yellow;
+}
+
+.boton:hover{
+    background-color: yellow;
+    color: darkred;
+    border: 1px solid darkred;
+}
+.titulo-card{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.contenedor-card i{
+    font-size: 30px;
+    color: red;
+}
+.margen-icon{
+    margin-top: 30px;
+
+}
+.galeria{
+    background-color: salmon;
+    color: green;
+}
+.contenedor-galeria{
+    width:  100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.contenedor-galeria img{
+    width: 23%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px blue;
+}
+.contenedor-galeria img:hover{
+    transform:  scaleX(-1);
+    transition: 0.6s;
+}
+.contacto{
+    background-color: darkblue;
+    color: brown;
+
+}
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.input{
+    background: transparent;
+    margin-bottom: 20px;
+    border: 0px;
+    outline: none;
+    border: 1px solid white;
+    padding: 20px 10px;
+    font-size: 20px;color: whitesmoke;
+}
+.input-ancho{
+    width: 47%;
+}
+.textarea-ancho{
+    width: 100%;
+}
+.menu{
+    background-color: black;
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 18px;
+    font-size: 25px;
+}
+.menu li a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline red;
+    transform:  scale(1.01);
+    transition: 0.5s;
+}
