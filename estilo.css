@@ -3,7 +3,7 @@
     padding: 0;
 }
 .hero{
-    background-image: linear-gradient(-120deg,rgba(255, 0, 0, 0.516), rgba(0, 0, 255, 0.314)), url(img/1366_2000.jpg); 
+    background-image: linear-gradient(-120deg,rgba(255, 0, 0, 0.516), rgba(0, 0, 255, 0.314)), url(tipos\ de\ restaurante\ \(1\).jpg); 
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
@@ -12,47 +12,51 @@
     background-attachment: fixed;
 }
 .hero-texto{
-    color: aqua;
+    color: color black;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 700px;
     justify-content: center;
     align-items: center;
 }
 .hero h1{
 
 font-size: 60px;
-text-shadow: 0 0 15px darkgreen;
+text-shadow: 0 0 15px  brown;
 text-align: center;
 }
 .hero h2{
-    font-size: 40px;
+    color: black;
+    font-size: 60px;
     font-weight: 300;
-    text-shadow: 0 0 15px olive;
+    text-shadow: 0 0 15px brown;
 }
 .info{
-    background-color: blue;
+    background-image:linear-gradient(-120deg,rgba(255, 0, 0, 0.516), rgba(0, 0, 255, 0.314)), url(take-away-fast-food-products-600nw-2250453005.webp);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: aquamarine;
+    color: black;
 }
 .contenedor{
+      background-image: linear-gradient(-120deg,rgba(255, 0, 0, 0.516), rgba(0, 0, 255, 0.314)), url(Comida.jpg);;
       width: 90%;
       margin: auto;
       padding: 80px;
+    
 }
 .titulo{
     font-size: 35px;
     text-align: center;
     margin-bottom: 20px;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px brown;
 }
 
 .parrafo{
     font-size: 18px;
     text-align: justify;
-    text-shadow: 0 0 3px black;
+    text-shadow: 0 0 3px brown;
 }
 .contenedor-card {
+    background-image: linear-gradient(-120deg,rgba(255, 0, 0, 0.516), rgba(0, 0, 255, 0.314)), url(deliciosa-comida-rapida-estilo-pop-art_24908-61615.avif);;
     display: flex;
     width: 100%;
     justify-content: space-evenly; 
@@ -86,9 +90,11 @@ text-align: center;
 }
 .titulo-card{
     font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
+    color: black;
 }
 .contenedor-card i{
+    
     font-size: 30px;
     color: red;
 }
@@ -97,8 +103,8 @@ text-align: center;
 
 }
 .galeria{
-    background-color: salmon;
-    color: green;
+    background-color: black;
+    color: black;
 }
 .contenedor-galeria{
     width:  100%;
@@ -118,10 +124,11 @@ text-align: center;
 }
 .contacto{
     background-color: darkblue;
-    color: brown;
+    color: black;
 
 }
 .formulario{
+    color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -131,9 +138,9 @@ text-align: center;
     margin-bottom: 20px;
     border: 0px;
     outline: none;
-    border: 1px solid white;
+    border: 2px solid black;
     padding: 20px 10px;
-    font-size: 20px;color: whitesmoke;
+    font-size: 20px;color: black;
 }
 .input-ancho{
     width: 47%;
@@ -166,3 +173,35 @@ text-align: center;
     transform:  scale(1.01);
     transition: 0.5s;
 }
+footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;  
+    justify-content: space-between;  
+  }
+  
+  .info-footer{
+    color: aquamarine;
+  }
+
+  .redes-sociales {
+    flex: 1;  
+  
+  }
+  
+  .info {
+    text-align: left;  
+  }
+  
+  .redes-sociales ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .redes-sociales li {
+    display: inline-block;
+    margin-right: 10px;
+  }
